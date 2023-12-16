@@ -4,7 +4,7 @@ import { FaBars } from 'react-icons/fa6'
 
 const Header = () => {
 	return (
-		<header className='sticky flex items-center justify-between px-3 py-4 text-white lg:px-16 bg-zinc-900 h-[10vh]'>
+		<header className='sticky top-0 z-40 flex items-center justify-between px-3 py-4 text-white lg:px-16 bg-zinc-900 h-[10vh]'>
 			<div className='flex items-center gap-4'>
 				<img src='https://flowbite.com/docs/images/logo.svg' alt='icon' />
 				<h2 className='text-lg font-bold md:text-2xl'>Geekfoods</h2>
