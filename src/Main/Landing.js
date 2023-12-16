@@ -1,3 +1,5 @@
+import Button from './Button'
+
 const Landing = () => {
 	return (
 		<div className='relative'>
@@ -11,6 +13,16 @@ const Landing = () => {
 						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
 						illo tenetur fuga ducimus numquam ea!
 					</p>
+					<div className='flex justify-center gap-4 mt-12'>
+						<Button
+							name='Search Now'
+							twclass='bg-rose-700 text-white hover:bg-rose-800'
+						/>
+						<Button
+							name='Know More'
+							twclass='bg-white text-rose-700 hover:bg-rose-800'
+						/>
+					</div>
 				</div>
 			</div>
 			<div className='h-[90vh] bg-black opacity-50 absolute z-10 top-0 w-screen'></div>

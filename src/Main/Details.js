@@ -1,6 +1,8 @@
+import Button from './Button'
+
 const Details = () => {
 	return (
-		<div className='max-w-screen-xl px-4 py-16 mx-auto mb-4 sm:px-6 lg:px-8'>
+		<div className='max-w-screen-xl px-4 py-16 mx-auto md:mb-4 sm:px-6 lg:px-8'>
 			<div class='grid grid-cols-1 lg:h-screen lg:grid-cols-2'>
 				<div class='relative z-10 lg:py-16'>
 					<div class='relative h-64 sm:h-80 lg:h-full'>
@@ -18,12 +20,16 @@ const Details = () => {
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore,
 							debitis.
 						</h2>
-						<p class='mt-4 text-gray-600'>
+						<p class='my-6 text-gray-600'>
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid,
 							molestiae! Quidem est esse numquam odio deleniti, beatae, magni
 							dolores provident quaerat totam eos, aperiam architecto eius quis
 							quibusdam fugiat dicta.
 						</p>
+						<Button
+							name='Get in Touch'
+							twclass='bg-indigo-600 hover:bg-transparent hover:text-indigo-600 text-white border border-indigo-600'
+						/>
 					</div>
 				</div>
 			</div>
