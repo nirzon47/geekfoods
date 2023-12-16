@@ -1,12 +1,14 @@
 import Landing from './Landing'
 import Details from './Details'
+import Testimonies from './Testimonies'
 
 const Main = () => {
 	return (
-		<div>
+		<>
 			<Landing />
 			<Details />
-		</div>
+			<Testimonies />
+		</>
 	)
 }
 
